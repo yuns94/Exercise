@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&display=swap");
+
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  background-color: #f6f6fe;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #bebebe;
+}
+
+.outline {
+  background-color: #f5f6f8;
+  width: 290px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 5px 0px 15px 5px #bbc1cd;
+}
+
+.view {
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+.sign-in {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.text {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border: 1px solid #f5f5f5;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+input::-webkit-input-placeholder {
+  color: #cfcfcf;
+}
+
+.sign__input__forgot-bt,
+.sign__input__remember-bt {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.sign__input__forgot-bt {
+  color: #e3293e;
+}
+
+.sign__input__remember-bt {
+  justify-content: flex-start;
+}
+
+.buttons {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  border-radius: 30px;
+  height: 40px;
+  width: 100%;
+}
+
+.buttons__sign-in {
+  background-color: #e3293e;
+}
+
+.buttons__or {
+  align-self: flex-start;
+  color: black;
+  font-weight: 600;
+}
+
+.buttons__two-bt {
+  display: flex;
+  align-self: stretch;
+}
+
+.buttons__facebook-bt {
+  margin-right: 20px;
+  background-color: #475a95;
+}
+
+.buttons__twitter-bt {
+  background-color: #5da1f2;
+}
+
+.more {
+  margin-left: 5px;
+}
+
+.red-text {
+  color: #e3293e;
+  margin-left: 5px;
+}
