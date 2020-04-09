@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@500;600;800&display=swap");
+
+body {
+  background-color: #e7e9ed;
+  font-family: "Sarabun", sans-serif;
+  padding: 20px;
+  font-weight: 600;
+}
+
+.phone {
+  width: 380px;
+  height: 825px;
+  padding: 17px 30px;
+  background-color: #f0f1f5;
+  background-image: url(https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/81503362_173334434040379_1416866374317092966_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=107&_nc_ohc=MYZCylAfHigAX8G7rvH&oh=c014246130fb65ff1decc4187e167dcd&oe=5EC800E4);
+  background-repeat: no-repeat;
+  background-position: 0% -45%;
+  background-size: 380px 500px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.status-bar__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-bar__bts {
+  margin: 30px 0px 185px 0px;
+  cursor: pointer;
+}
+
+.bk-bt {
+  color: black;
+  font-size: 23px;
+}
+
+.place-add__photos {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.place-add__photo {
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-weight: 500;
+  font-size: 19px;
+  margin-left: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f67ff;
+  border-radius: 10px;
+}
+
+.place-add__tags {
+  margin: 30px 0px 7px 0px;
+  display: flex;
+  justify-contet: flex-start;
+}
+
+.place-add__tag {
+  margin-right: 10px;
+  background-color: #dde3f9;
+  color: #3661ff;
+  font-size: 13px;
+  padding: 5px 12px;
+  border-radius: 30px;
+  font-weight: 600;
+  border-bottom-left-radius: 0px;
+}
+
+.place__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.place__name__name {
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.heart-i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 33px;
+  height: 33px;
+  color: red;
+  border-radius: 20px;
+}
+
+.place__address {
+  margin: 5px 0px 13px 0px;
+}
+
+.place__address i {
+  color: #2455ff;
+  font-size: 13px;
+}
+
+.place__address span {
+  font-size: 17px;
+  color: #a3b0c8;
+}
+
+.place__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.place__bottom i {
+  color: #ffb700;
+}
+
+.place__bottom span {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.place__bottom__far {
+  color: #a3b0c8;
+}
+
+.place-info__overview {
+  margin: 20px 0px 8px 0px;
+}
+
+.place-info__overview span {
+  color: #a3b0c8;
+  font-size: 12px;
+}
+
+.place-info__info {
+  width: 300px;
+  color: #61769d;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.place-info__more {
+  color: #2c5bff;
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+nav {
+  position: relative;
+  bottom: 0px;
+}
+
+/*  여기까지 5시간 20분 걸림... */
