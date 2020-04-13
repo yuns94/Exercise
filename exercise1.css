@@ -66,42 +66,38 @@ section {
 
 .profile {
   border-radius: 10px;
+  height: 440px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
 }
 
-.profile_top {
-  height: 190px;
+.profile_bg {
+  width: 100%;
+  height: 230px;
   background-image: url(http://blogfiles.naver.net/20160929_131/eogk8709_1475108418065gmCgO_JPEG/20.jpg);
   background-size: cover;
-  border-radius: 10px 10px 0px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: ;
+  position: absolute;
+  border-radius: 10px 0px 0px;
+  margin-top: -30px;
+  z-index: -10;
 }
 
-.profile_photo {
-  background-color: white;
-  height: 90px;
-  width: 90px;
-  border-radius: 50%;
+.profile_main {
+  height: 245px;
+  position: absoulte;
+  margin-top: 200px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 10px;
+  flex-direction: column;
 }
 
 .profile img {
-  width: 82px;
-  height: 82px;
-  border-radius: 50%;
-}
-
-.profile_bottom {
+  width: 90px;
+  margin-top: -50px;
   background-color: white;
-  border-radius: 0px 0px 10px 10px;
-  padding: 70px 0px 0px 0px;
-  padding-bottom: 30px;
+  padding: 3px;
+  border-radius: 50%;
 }
 
 .profile_name {
@@ -118,10 +114,10 @@ section {
 }
 
 .profile_buttons {
+  width: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0px 30px 10px 30px;
 }
 
 .profile_button {
