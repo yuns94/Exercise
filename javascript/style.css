@@ -1,5 +1,30 @@
+/*
+
 body {
-  background-color: gray;
-  font-size: 30px;
+  background-color: #ecf0f1;
+}
+
+h1 {
+  color: #34495e;
+  transition: color 0.5s ease-in-out;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+*/
+
+body {
+  font-family: sans-serif;
   color: white;
+  background-color: rgb(118, 50, 182);
+}
+
+.over {
+  background-color: rgba(224, 153, 20, 0.931);
+}
+
+.down {
+  background-color: rgb(62, 133, 214);
 }

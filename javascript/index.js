@@ -43,7 +43,11 @@ const squared = calculator.squared(2, 2);
 console.log(plus, minus, multiply, squared);
 
 */
+
+/*
 const title = document.querySelector("#title");
+
+title.innerHTML = " Hello!";
 
 const superEventHandler = {
   handleClick: function handleClick() {
@@ -74,3 +78,49 @@ title.addEventListener("mouseleave", superEventHandler.handleMouseleave);
 window.addEventListener("contextmenu", superEventHandler.windowContextmenu);
 
 window.addEventListener("resize", superEventHandler.windowResize);
+
+*/
+
+/*
+
+const title = document.querySelector("#title");
+
+const CLICKED_CLASS = "clicked";
+
+function handleClick() {
+  const currentClass = title.className;
+  if (currentClass !== CLICKED_CLASS) {
+    title.className = CLICKED_CLASS;
+  } else {
+    title.className = "";
+  }
+}
+
+function click() {
+  title.addEventListener("click", handleClick);
+}
+
+click();
+
+*/
+
+const body = document.querySelector("body");
+
+const OVER_CLASS = "over";
+
+const DOWN_CLASS = "down";
+
+function resize() {
+  const width = window.innerWidth;
+
+  if (width >= 300) {
+    body.className = OVER_CLASS;
+  } else if (width >= 200 && width < 300) {
+    body.className = "";
+  } else {
+    body.className = DOWN_CLASS;
+  }
+  console.log(window.innerWidth);
+}
+
+window.addEventListener("resize", resize);
