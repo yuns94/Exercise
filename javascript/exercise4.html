@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="exercise4.css" />
+  </head>
+  <body>
+    <h1 class="js-title">Random Number Game</h1>
+    <form class="js-rangeForm">
+      <h2 class="js-rangeNum">Generate a number between 0 and 150</h2>
+      <input
+        type="range"
+        list="rangeBlock"
+        class="js-rangeInput"
+        min="0"
+        max="250"
+        step="5"
+        value="150"
+      />
+      <datalist id="rangeBlock">
+        <option value="0"></option>
+        <option value="50"></option>
+        <option value="100"></option>
+        <option value="150"></option>
+        <option value="200"></option>
+        <option value="250"></option>
+      </datalist>
+    </form>
+    <form class="js-guessForm">
+      <label for="guessInput">Guess the number:</label>
+      <input type="text" name="guess" class="guessInput" />
+      <input type="button" value="Play!" class="playBtn" />
+    </form>
+    <span class="js-machineChose">chose~~</span>
+    <h2 class="js-result">you 00!</h2>
+
+    <script src="exercise4.js"></script>
+  </body>
+</html>
